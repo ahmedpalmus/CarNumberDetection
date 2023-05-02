@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportList"
+    android:orientation="vertical"
+    android:background="@drawable/box_1"
+    android:padding="5dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_blue"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Reports"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:fontFamily="@font/timesbd"
+            android:padding="10dp"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/new_report"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="New Report"
+            android:background="@drawable/gradient_light"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:fontFamily="@font/agencyb"
+            android:textColor="#2F097C"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/child_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
