@@ -5,22 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlateDetectionActivity"
-    android:padding="50dp"
+    android:layout_margin="10dp"
     android:orientation="vertical">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:id="@+id/image_view"/>
-
     <TextView
         android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="the number"
+        android:background="#E8E8E8"
+        android:layout_margin="3dp"
+        android:text="dddd"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         android:textColor="@color/black"
         />
+    <Button
+        android:id="@+id/button_text"
+        android:text="Find Number"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/gradient_light"/>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/image_view"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart" />
+
 
 </LinearLayout>

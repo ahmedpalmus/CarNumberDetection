@@ -25,9 +25,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:padding="10dp"
-                android:textSize="20sp"
-                android:layout_margin="10dp"
+                android:paddingVertical="10dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
                 android:text="@string/logo"
                 android:textStyle="bold"
                 android:textAlignment="center"
