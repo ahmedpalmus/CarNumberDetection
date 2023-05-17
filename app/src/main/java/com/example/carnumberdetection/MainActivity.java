@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 data.put("username", params[0]);
                 data.put("password", params[1]);
                 String result = con.sendPostRequest(URL, data);
-                return result;
+                return result.trim();
             }
 
             @Override

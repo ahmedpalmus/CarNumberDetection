@@ -25,7 +25,9 @@ public class UserPage extends AppCompatActivity {
         scan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(UserPage.this, PlateDetectionActivity.class);
+                intent.putExtra("id", id);
+                startActivity(intent);
             }
         });
         reports.setOnClickListener(new View.OnClickListener() {

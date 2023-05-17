@@ -124,6 +124,9 @@ public class PlateDetectionActivity extends AppCompatActivity {
             }
         }
         mTextView.setText(text);
+        Intent intent = new Intent(PlateDetectionActivity.this, NewReport.class);
+        intent.putExtra("number", text);
+        startActivity(intent);
     }
 
     private void showToast(String message) {
