@@ -33,7 +33,7 @@
         android:layout_gravity="center"
         android:layout_width="200dp"
         android:layout_height="300dp"
-        android:scaleType="fitStart" />
+        android:scaleType="fitXY" />
 
 
 </LinearLayout>
