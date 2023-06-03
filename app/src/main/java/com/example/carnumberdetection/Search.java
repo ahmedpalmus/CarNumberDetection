@@ -23,7 +23,7 @@ public class Search extends AppCompatActivity {
     Button cancel,search;
     String car_number;
     String URL = Server.ip + "getcar.php";
-EditText number;
+    EditText number;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
