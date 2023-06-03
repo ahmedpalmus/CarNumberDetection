@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ReportList"
+    tools:context=".QuestionList"
     android:orientation="vertical"
-    android:background="@drawable/box_1"
-    android:padding="5dp"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,21 +13,36 @@
         android:background="@drawable/gradient_blue"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="4"
             android:layout_height="wrap_content"
-            android:text="List of Reports"
+            android:text="@string/logo"
             android:textSize="20dp"
             android:textColor="#fff"
             android:gravity="center"
             android:fontFamily="@font/timesbd"
             android:padding="10dp"/>
+        <ImageButton
+            android:id="@+id/new_ques"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:src="@drawable/ic_baseline_add_to_photos_24"
+            android:background="@drawable/box_2"
+            android:layout_margin="5dp"
+            />
+
 
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/report_list"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comp_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        />
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear14" />
 
 </LinearLayout>

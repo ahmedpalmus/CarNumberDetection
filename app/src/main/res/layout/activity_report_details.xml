@@ -22,8 +22,9 @@
                 android:background="@drawable/gradient_blue"
                 android:elevation="5dp"
                 android:gravity="center"
+                android:text="Report Details"
                 android:padding="5dp"
-                android:textColor="#018191"
+                android:textColor="#fff"
                 android:textSize="20dp" />
 
             <LinearLayout
@@ -69,7 +70,7 @@
                     android:text="Car No"
                     android:textAlignment="textStart"
                     android:textColor="#000"
-                    android:textSize="18dp"/>
+                    android:textSize="18dp" />
 
                 <TextView
                     android:id="@+id/car_id"
@@ -100,9 +101,23 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:padding="10dp"
-                android:text="Request details"
-                android:textSize="17dp" />
-
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box_3"
+                android:text="The Details of the report"
+                android:lines="3"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/find_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="10dp"
+                android:text="View Location"
+                android:textAllCaps="false"
+                android:textColor="#051573"
+                android:background="@drawable/gradient_light"
+                android:drawableLeft="@drawable/location"
+                android:textSize="18dp" />
             <androidx.cardview.widget.CardView
                 android:id="@+id/image_palce"
                 android:layout_width="match_parent"
@@ -116,8 +131,8 @@
                 <ImageView
                     android:id="@+id/roundedImageView"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:scaleType="center"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
                     android:background="@color/white"
                     android:src="@drawable/scancar" />
             </androidx.cardview.widget.CardView>
@@ -132,9 +147,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#CDF6F5F5"
-                    android:drawableLeft="@drawable/comment1"
                     android:padding="10dp"
-                    android:text="Your Response:"
+                    android:text="The Response:"
                     android:textAlignment="textStart"
                     android:textColor="#000"
                     android:textSize="18dp"
@@ -160,38 +174,19 @@
                     android:textColor="@color/white"
                     android:textSize="18dp" />
             </LinearLayout>
+
             <Button
-                android:visibility="gone"
-                android:id="@+id/view_response"
+                android:id="@+id/cancel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:background="@drawable/box_1"
-                android:drawableLeft="@drawable/comment1"
+                android:background="@drawable/box_5"
                 android:paddingHorizontal="10dp"
-                android:text="View Responses"
+                android:text="@string/cancel"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="18dp" />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingVertical="10dp">
 
-                <Button
-                    android:id="@+id/cancel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="10dp"
-                    android:background="@drawable/box_5"
-                    android:paddingHorizontal="10dp"
-                    android:text="@string/cancel"
-                    android:textAllCaps="false"
-                    android:textColor="@color/white"
-                    android:textSize="18dp" />
-
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

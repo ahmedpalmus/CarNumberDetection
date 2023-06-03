@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, getResources().getString(R.string.loginError), Toast.LENGTH_LONG).show();
             }
         }else  if (v.getId() == R.id.log_reg) {
-            Intent intent = new Intent(MainActivity.this, PlateDetectionActivity.class);
+            Intent intent = new Intent(MainActivity.this, Register.class);
             startActivity(intent);
         }
     }

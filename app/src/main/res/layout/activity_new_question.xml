@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewQuestion"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logo"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:background="@drawable/gradient_blue"
+        android:gravity="center"
+        android:fontFamily="@font/timesbd"
+        android:padding="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Send Your Question to the Police"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/sub_details"
+                android:layout_width="match_parent"
+                android:lines="10"
+                android:layout_height="wrap_content"
+                android:hint="Ask the Police about anything"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:gravity="top"
+                android:background="@drawable/box_3"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+                <Button
+                    android:onClick="NewCompClick"
+                    android:id="@+id/sub_save"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Send"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:padding="10dp"
+                    android:background="@drawable/box_4"
+                    android:layout_marginHorizontal="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
