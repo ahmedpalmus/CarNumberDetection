@@ -62,19 +62,6 @@ public class GraphicOverlay extends View {
             this.overlay = overlay;
         }
 
-        /**
-         * Draw the graphic on the supplied canvas. Drawing should use the following methods to convert
-         * to view coordinates for the graphics that are drawn:
-         * <p>
-         * <ol>
-         * <li>{@link Graphic#scaleX(float)} and {@link Graphic#scaleY(float)} adjust the size of the
-         * supplied value from the preview scale to the view scale.
-         * <li>{@link Graphic#translateX(float)} and {@link Graphic#translateY(float)} adjust the
-         * coordinate from the preview's coordinate system to the view coordinate system.
-         * </ol>
-         *
-         * @param canvas drawing canvas
-         */
         public abstract void draw(Canvas canvas);
 
         /**
