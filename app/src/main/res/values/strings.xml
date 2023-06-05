@@ -86,6 +86,7 @@
     <string name="scan_car">Scan Car</string>
     <string name="recent_reports">Recent reports</string>
     <string name="contact_police">Contact Police</string>
+    <string name="create_a_new_account">Create a new account</string>
 
 
     <string-array name="rating" translatable="false">

@@ -83,5 +83,6 @@
     <string name="scan_car">مسح رقم لوحة</string>
     <string name="recent_reports">أحدث التقارير</string>
     <string name="contact_police">التواصل مع الشرطة</string>
+    <string name="create_a_new_account">إنشاء حساب جديد</string>
 
 </resources>

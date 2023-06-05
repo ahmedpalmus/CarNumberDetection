@@ -74,7 +74,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Create a new account"
+                android:text="@string/create_a_new_account"
                 android:textAllCaps="false"
                 android:textColor="#03426B"
                 android:textSize="20sp"
