@@ -35,19 +35,16 @@
         android:textColor="#000"
         android:background="#F4F4F4"
         android:textSize="16dp"/>
-
     <TextView
         android:id="@+id/s_det"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Question details"
+        android:text="@string/detail"
         android:padding="10dp"
         android:textStyle="bold"
         android:textColor="#000"
         android:textSize="18dp"
         />
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -65,7 +62,7 @@
         android:padding="10dp"
         android:lines="4"
         android:textColor="#222121"
-        android:hint="No response from the admin"
+        android:hint="@string/no_response_from_the_admin"
         android:textSize="17dp"
         android:layout_marginBottom="10dp"
         android:enabled="false"

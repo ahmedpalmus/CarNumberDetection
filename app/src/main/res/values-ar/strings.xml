@@ -42,24 +42,46 @@
     <string name="logout">خروج</string>
 
 
-    <string name="conform_pasword">Conform Pasword</string>
+    <string name="conform_pasword">تأكيد كلمة المرور</string>
 
-    <string name="add">Add</string>
+    <string name="add">إضافة</string>
 
-    <string name="attach_image">Attach Image</string>
-    <string name="the_image">The Image</string>
+    <string name="attach_image">إرفاق صورة</string>
+    <string name="the_image">الصورة</string>
 
-    <string name="date">Date</string>
-    <string name="title">Title</string>
+    <string name="date">التاريخ</string>
+    <string name="title">العناون</string>
 
-    <string name="state">State</string>
-    <string name="view_image">View Image</string>
-    <string name="delete">Delete</string>
+    <string name="state">الحالة</string>
+    <string name="view_image">استعراض صورة</string>
+    <string name="delete">حذف</string>
 
-    <string name="update">Update</string>
+    <string name="update">تحديث</string>
 
     <string name="job">Job</string>
     <string name="age">Age</string>
     <string name="gender">Gender</string>
+    <string name="search">بحث</string>
+    <string name="users_reports">التقارير</string>
+    <string name="citizen_inquiries">الاستعلامات</string>
+    <string name="my_profile">الملف الشخصي</string>
+    <string name="plate_number">رقم اللوحة</string>
+    <string name="attach_location">ارفاق الموقع</string>
+    <string name="no_response_from_the_admin">لا يوجد رد</string>
+    <string name="report_details">تفاصيل التقرير</string>
+    <string name="view_details">استعراض التفاصيل</string>
+    <string name="car_no">رقم السيارة</string>
+    <string name="view_location">الموقع</string>
+    <string name="the_response">الرد:</string>
+    <string name="enter_your_response">أدخل الرد</string>
+    <string name="color">اللون</string>
+    <string name="brand">النوع</string>
+    <string name="owner_name">اسم المالك</string>
+    <string name="owner_phone">هاتف المالك</string>
+    <string name="owner_id">هوية المالك</string>
+    <string name="car_details">تفاصيل السيارة</string>
+    <string name="scan_car">مسح رقم لوحة</string>
+    <string name="recent_reports">أحدث التقارير</string>
+    <string name="contact_police">التواصل مع الشرطة</string>
 
 </resources>

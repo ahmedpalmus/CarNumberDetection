@@ -64,6 +64,28 @@
     <string name="job">Job</string>
     <string name="age">Age</string>
     <string name="gender">Gender</string>
+    <string name="search">search</string>
+    <string name="users_reports">Users\' Reports</string>
+    <string name="citizen_inquiries">Citizen inquiries</string>
+    <string name="my_profile">My Profile</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="attach_location">Attach Location</string>
+    <string name="no_response_from_the_admin">No response from the admin</string>
+    <string name="report_details">Report Details</string>
+    <string name="view_details">View Details</string>
+    <string name="car_no">Car No</string>
+    <string name="view_location">View Location</string>
+    <string name="the_response">The Response:</string>
+    <string name="enter_your_response">Enter your response</string>
+    <string name="color">Color</string>
+    <string name="brand">Brand</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="owner_phone">Owner Phone</string>
+    <string name="owner_id">Owner ID</string>
+    <string name="car_details">Car Details</string>
+    <string name="scan_car">Scan Car</string>
+    <string name="recent_reports">Recent reports</string>
+    <string name="contact_police">Contact Police</string>
 
 
     <string-array name="rating" translatable="false">

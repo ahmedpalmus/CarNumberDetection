@@ -22,7 +22,7 @@
                 android:background="@drawable/gradient_blue"
                 android:elevation="5dp"
                 android:gravity="center"
-                android:text="Report Details"
+                android:text="@string/report_details"
                 android:padding="5dp"
                 android:textColor="#fff"
                 android:textSize="20dp" />
@@ -67,7 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Car No"
+                    android:text="@string/car_no"
                     android:textAlignment="textStart"
                     android:textColor="#000"
                     android:textSize="18dp" />
@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:padding="10dp"
-                    android:text="View Details"
+                    android:text="@string/view_details"
                     android:textAllCaps="false"
                     android:textColor="#051573"
                     android:background="@drawable/gradient_light"
@@ -103,7 +103,6 @@
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/box_3"
-                android:text="The Details of the report"
                 android:lines="3"
                 android:textSize="18dp" />
             <Button
@@ -112,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:padding="10dp"
-                android:text="View Location"
+                android:text="@string/view_location"
                 android:textAllCaps="false"
                 android:textColor="#051573"
                 android:background="@drawable/gradient_light"
@@ -148,7 +147,7 @@
                     android:layout_height="wrap_content"
                     android:background="#CDF6F5F5"
                     android:padding="10dp"
-                    android:text="The Response:"
+                    android:text="@string/the_response"
                     android:textAlignment="textStart"
                     android:textColor="#000"
                     android:textSize="18dp"
@@ -158,7 +157,7 @@
                     android:id="@+id/ur_response"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter your response"
+                    android:hint="@string/enter_your_response"
                     android:lines="3" />
 
                 <Button
@@ -169,7 +168,7 @@
                     android:background="@drawable/box_7"
                     android:drawableLeft="@drawable/comment1"
                     android:paddingHorizontal="10dp"
-                    android:text="Send"
+                    android:text="@string/save"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="18dp" />

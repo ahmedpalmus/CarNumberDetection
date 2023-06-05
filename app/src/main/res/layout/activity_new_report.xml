@@ -40,7 +40,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/box_2"
                     android:padding="10dp"
-                    android:text="Plate Number"
+                    android:text="@string/plate_number"
                     android:textColor="#000"
                     android:textSize="18dp" />
                 <TextView
@@ -68,7 +68,7 @@
                     android:layout_weight="1"
                     android:background="#E1F5FE"
                     android:padding="10dp"
-                    android:text="Details"
+                    android:text="@string/detail"
                     android:textColor="#000"
                     android:textSize="18dp" />
             </LinearLayout>
@@ -87,7 +87,6 @@
                 android:lines="8"
                 android:gravity="top"
                 android:layout_height="wrap_content"
-                android:hint="Enter the details"
                 android:padding="10dp"
                 android:textSize="18dp"
                 />
@@ -107,7 +106,7 @@
                     android:padding="10dp"
                     android:textColor="#000"
                     android:textSize="18dp"
-                    android:text="Attach Image"
+                    android:text="@string/attach_image"
                     android:textAllCaps="false"
                     android:drawableLeft="@drawable/addimage"
                     android:background="@drawable/gradient_light"
@@ -131,7 +130,7 @@
                 android:layout_marginHorizontal="10dp"
                 android:textColor="#000"
                 android:textSize="18dp"
-                android:text="Attach location"
+                android:text="@string/attach_location"
                 android:textAllCaps="false"
                 android:background="@drawable/gradient_light"
                 android:drawableLeft="@drawable/location"
